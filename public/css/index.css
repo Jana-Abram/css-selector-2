@@ -15,11 +15,11 @@
   color: red;
 }
 
-.btn:active {
+.lesson-four-task-five .btn:active {
   background-color: blue;
 }
 
-.btn:focus {
+.lesson-four-task-six .btn:focus {
   color: orange;
   background-color: orange;
 }
@@ -38,9 +38,7 @@
   color: blue;
 }
 
-input:enabled,
-textarea:enabled,
-select:enabled {
+.lesson-four-task-ten input:enabled, .lesson-four-task-ten textarea:enabled {
   color: red;
   background-color: yellow;
 }
@@ -69,11 +67,11 @@ input:invalid {
   background-color: red;
 }
 
-#quantity:out-of-range {
+.lesson-four-task-sixteen input:out-of-range {
   color: red;
 }
 
-#quantity:in-range {
+.lesson-four-task-seventeen input:in-range {
   color: red;
 }
 
@@ -81,7 +79,7 @@ input[type='text']::placeholder {
   background-color: red;
 }
 
-.lesson-four-task-nineteen:focus-within {
+.lesson-four-task-nineteen .btn-group button:active {
   color: white;
   background-color: yellow;
 }
